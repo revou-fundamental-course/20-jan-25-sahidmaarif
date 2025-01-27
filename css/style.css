@@ -1,52 +1,50 @@
+.information-form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
 
+.information-form h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
 
-.bmi-ranges {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-  }
-  
-  .bmi-ranges h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 15px;
-  }
-  
-  .bmi-ranges ul {
-    list-style: none;
-  }
-  
-  .bmi-ranges li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  .color-box {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    margin-right: 10px;
-  }
-  
-  /* Color Indicators */
-  .yellow {
-    background-color: #fbc02d;
-  }
-  
-  .teal {
-    background-color: #26a69a;
-  }
-  
-  .green {
-    background-color: #388e3c;
-  }
-  
-  .red {
-    background-color: #d32f2f;
-  }
+.information-form ul {
+  list-style: none;
+}
+
+.information-form li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Color Indicators */
+.yellow {
+  background-color: #fbc02d;
+}
+
+.teal {
+  background-color: #26a69a;
+}
+
+.green {
+  background-color: #388e3c;
+}
+
+.red {
+  background-color: #d32f2f;
+}
