@@ -3,25 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Body Mass Index Calculator, count BMI website">
-    <meta name="keyword" content="BMI, Body Mass Index, BMI Calculator, count Body Mass Index">
-    <meta name="author" content="Sahid Maarif">
+    <meta name="description" content="Body Mass Index Calculator, count BMI website" />
+    <meta name="keyword" content="BMI, Body Mass Index, BMI Calculator, count Body Mass Index" />
+    <meta name="author" content="Sahid Maarif" />
     <title>Calculator BMI</title>
   </head>
   <body>
-  <main>
-    <div class="container">
-      <!-- input form -->
-      <div class="hitung-form">
-        <div class="input-form">
-
-        </div>
-        <!-- menampilkan hasil -->
+    <main>
+      <div class="container">
+        <!-- input form -->
+        <div class="hitung-form">
+          <form id="hitung"></form>
+            <div class="input-form">
+            <label for="gender">gender</label>
+            <label><input type="radio" name="gender" value="male">Pria</label>
+            <label><input type="radio" name="gender" value="female">Wanita</label>
+            </div>
+            <div class="input-form">
+              <label for="height">Weight</label>
+              <input type="number" id="height" placeholder="Cm">
+            </div>
+            <div class="input-form">
+              <label for="height">Height</label>
+              <input type="number" id="height" placeholder="Kg">
+            </div>
+            <div class="btn-form">
+              <button type="reset" id="btn-reset">reset</button>
+              <button type="button" id="btn-calculate">hitung</button>
+            </div>
+          <!-- menampilkan hasil -->
         <div class="hasil"></div>
+        </div>
+        <!-- sidebar informasi -->
+        <aside class="sidebar"></aside>
       </div>
-      <!-- sidebar informasi -->
-      <aside class="sidebar"></aside>
-    </div>
-  </main>
+    </main>
   </body>
 </html>
