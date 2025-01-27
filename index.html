@@ -6,6 +6,7 @@
     <meta name="description" content="Body Mass Index Calculator, count BMI website" />
     <meta name="keyword" content="BMI, Body Mass Index, BMI Calculator, count Body Mass Index" />
     <meta name="author" content="Sahid Maarif" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Calculator BMI</title>
   </head>
   <body>
@@ -32,10 +33,36 @@
               <button type="button" id="btn-calculate">hitung</button>
             </div>
           <!-- menampilkan hasil -->
-        <div class="hasil"></div>
+        <div class="hasil-form"></div>
+          <div class="skor"></div>
+          <h3>Hasil</h3>
+          <div class="box-hasil">0</div>
+          <div class="note">
+            <p>note :</p>
+          </div>
         </div>
         <!-- sidebar informasi -->
-        <aside class="sidebar"></aside>
+        <div class="information-form">
+          <h3>BMI weight ranges</h3>
+          <ul>
+            <li>
+              <span class="color-box yellow"></span>
+              Less than 18.5 = Underweight
+            </li>
+            <li>
+              <span class="color-box teal"></span>
+              Between 18.5 - 24.9 = Healthy Weight
+            </li>
+            <li>
+              <span class="color-box green"></span>
+              Between 25 - 29.9 = Overweight
+            </li>
+            <li>
+              <span class="color-box red"></span>
+              Over 30 = Obese
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   </body>
